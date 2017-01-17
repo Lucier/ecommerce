@@ -72,3 +72,5 @@ core/migrations
 *.snm
 *.toc
 *.vrbr
+
+local_settings.py
