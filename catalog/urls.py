@@ -8,4 +8,5 @@ from . import views
 urlpatterns = [
     url(r'^$', views.produtos_lista, name='produtos_lista'),
     url(r'^(?P<slug>[\w_-]+)/$', views.category, name='category'),
+    url(r'^produtos/(?P<slug>[\w_-]+)/$', views.product, name='product'),
 ]
